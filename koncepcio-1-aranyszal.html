@@ -122,10 +122,10 @@
     .ornament b{display:block;width:5px;height:5px;border-radius:50%;background:currentColor}
 
     /* ============ Fejléc ============ */
-    .header{position:fixed;top:0;left:0;right:0;z-index:50;height:var(--header-h);transition:height .6s var(--ease),background-color .6s var(--ease),box-shadow .6s var(--ease),backdrop-filter .6s var(--ease)}
+    .header{position:fixed;top:0;left:0;right:0;z-index:50;height:var(--header-h);background:#fff;box-shadow:0 1px 0 var(--line);transition:height .6s var(--ease),background-color .6s var(--ease),box-shadow .6s var(--ease),backdrop-filter .6s var(--ease)}
     .header .bar{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
     .header .logo img{height:58px;width:auto;transition:height .6s var(--ease)}
-    .header.scrolled{--header-h:68px;background:rgba(250,246,242,.82);-webkit-backdrop-filter:blur(14px) saturate(1.1);backdrop-filter:blur(14px) saturate(1.1);box-shadow:0 1px 0 var(--line)}
+    .header.scrolled{--header-h:68px;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(14px) saturate(1.1);backdrop-filter:blur(14px) saturate(1.1);box-shadow:0 1px 0 var(--line),0 6px 24px rgba(46,38,38,.05)}
     .header.scrolled .logo img{height:42px}
     .nav{display:none}
     .nav ul{display:flex;gap:36px}
