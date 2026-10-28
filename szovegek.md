@@ -11,7 +11,7 @@ A **Kicker** a cím fölötti kis felirat.
 ### Fejléc
 
 - Logó: Eliza Beauty Salon
-- Menü: Főoldal · Kezelések · Rólunk · Kapcsolat
+- Menü: Főoldal · Kezelések · Rólam · Kapcsolat
 
 ### Időpontkérő szakasz (minden oldal alján, a lábléc fölött)
 
@@ -25,7 +25,7 @@ A **Kicker** a cím fölötti kis felirat.
 - **Bemutatkozás:** Személyre szabott kozmetikai kezelések bőrfiatalításra és problémás bőr kezelésére, modern technológiákkal és természetes hatóanyagokkal.
 - **Elérhetőség:** 1092 Budapest, Ráday u. 1. · +36 20 344 9272 · hello.elizabeauty@gmail.com
 - **Nyitvatartás:** H–P: 9:00–16:00 · Szo–V: zárva
-- **Oldalak:** Főoldal · Kezelések · Rólunk · Kapcsolat
+- **Oldalak:** Főoldal · Kezelések · Rólam · Kapcsolat
 - **Alsó sor:** © Eliza Beauty Salon – Minden jog fenntartva! | Adatkezelési tájékoztató
 
 ---
@@ -60,7 +60,7 @@ A **Kicker** a cím fölötti kis felirat.
 - **Cím:** Ismerd meg a szakértődet!
 - **Szöveg:** Sipos Eliza vagyok, az Eliza Beauty Salon megálmodója. 14 éve segítek vendégeimnek abban, hogy bőrük egészségesebb, fiatalosabb és ragyogóbb legyen. A szépségipar mindig is a szenvedélyem volt, ezért folyamatosan fejlesztem tudásomat, hogy a legmodernebb technológiákkal és leghatékonyabb hatóanyagokkal dolgozhassak. A Beauty Academy szakmai trénereként és a kozmetikus mesterképzés elvégzése után célom, hogy minden vendégem személyre szabott, professzionális kezelést kapjon. Nálam nincs sablonkezelés, csak valódi törődés és hosszú távú megoldások.
 - **Számok:** 14+ év tapasztalat · 1300+ vendég · 350+ féle kozmetikum
-- **Gomb:** Tovább olvasok → Rólunk oldal
+- **Gomb:** Tovább olvasok → Rólam oldal
 
 ### Folyamat
 
@@ -162,7 +162,7 @@ Ugyanazok, mint a főoldalon („Valódi eredmények, elégedett vendégek”, �
 
 ---
 
-## Rólunk
+## Rólam
 
 ### Hero
 

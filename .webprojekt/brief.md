@@ -54,7 +54,7 @@ A `design-system.md` színei **kötelezőek**, minden koncepció ezekből dolgoz
 
 ## Oldalak (v1 – indulás)
 
-Minden oldal alján: **Időpontkérő szakasz** (cím, szöveg, űrlap: teljes név, e-mail, üzenet, Küldés), alatta a **lábléc** (sötét kakaó, fehér logó, bemutatkozás, elérhetőség, nyitvatartás, oldalak, alsó sor az Adatkezelési tájékoztató linkkel). Fejléc: logó, menü (Főoldal · Kezelések · Rólunk · Kapcsolat) és egy kis „Időpontot kérek” gomb, mobilon hamburger menü + kattintható telefonszám.
+Minden oldal alján: **Időpontkérő szakasz** (cím, szöveg, űrlap: teljes név, e-mail, üzenet, Küldés), alatta a **lábléc** (sötét kakaó, fehér logó, bemutatkozás, elérhetőség, nyitvatartás, oldalak, alsó sor az Adatkezelési tájékoztató linkkel). Fejléc: logó, menü (Főoldal · Kezelések · Rólam · Kapcsolat) és egy kis „Időpontot kérek” gomb, mobilon hamburger menü + kattintható telefonszám.
 
 ### Főoldal
 - **Célja:** Bizalmat építeni és a látogatót a kezelésekhez vagy az időpontkéréshez vinni.
@@ -66,7 +66,7 @@ Minden oldal alján: **Időpontkérő szakasz** (cím, szöveg, űrlap: teljes n
 - **Szekciók:** Hero → Probléma (4 bőrprobléma) → Kezelések (Belico, Mesotica, További kezelések, kártyás vagy blokkos csoportosítással, a kezeléseknek nincs aloldaluk) → Eredmények (8 elemes lista) → Garancia (kiemelt sáv) → Csomagok (3 árkártya, az Anti-Age Plus kiemelve, „Ezt választom” gomb az időpontkérőhöz) → Vélemények → Folyamat → Időpontkérő → Lábléc
 - **Tartalom állapota:** Szöveg kész · Árak kész · Fotók: stock
 
-### Rólunk
+### Rólam (fájl: `rolam.html`; menüben és mindenhol „Rólam”, mert Eliza egyedül, egyes szám első személyben beszél)
 - **Célja:** Eliza személyét és szakmai hitelességét bemutatni.
 - **Szekciók:** Hero → Történet (idővonal: 2011 szalonnyitás, 2018 Beauty Academy tréner, 2019 mesterkozmetikus + 4 kiemelés) → Értékek (5 érték, saját rövid címmel: Minőség, Hitelesség, Természetesség, Fejlődés, Énidő) → A szalon (képes szakasz) → Felhívás → Időpontkérő → Lábléc
 - **Tartalom állapota:** Szöveg kész · Eliza portréja kész (`Eliza.png`) · A szalon belső fotói: **stock helyőrző**, jelölve, hogy élesben valódi fotók kerülnek a helyükre
@@ -92,7 +92,7 @@ Minden oldal alján: **Időpontkérő szakasz** (cím, szöveg, űrlap: teljes n
 | Hero | Kicker „A szépség mindenkié”, H1 „Személyre szabott kozmetikai kezelések”, a teljes bevezető szöveg a `szovegek.md`-ből **változatlanul**, nagy fotó (`arckezeles2.jpg` vagy `arckezeles1.jpg`) | „Megnézem a kezeléseket” → Kezelések (az ügyfél kérésére egy gomb, ahogy a szövegben van) | Kész |
 | Vélemények | Fruzsi és Magdi idézete (pontosan 2 vélemény, nem kell több) | – | Kész |
 | Előnyök | Cím, bevezető, 4 előny ikonnal (Bőrtípushoz igazodok, Fájdalommentes, Elégedettségi garancia, Exkluzív környezet) | – | Kész |
-| Bemutatkozás | Cím, szöveg, 3 szám (14+ év, 1300+ vendég, 350+ féle kozmetikum), Eliza portréja (`Eliza.png`) | „Tovább olvasok” → Rólunk | Kész |
+| Bemutatkozás | Cím, szöveg, 3 szám (14+ év, 1300+ vendég, 350+ féle kozmetikum), Eliza portréja (`Eliza.png`) | „Tovább olvasok” → Rólam | Kész |
 | Folyamat | 4 számozott lépés | – | Kész |
 | Felhívás | Cím, szöveg, hangulatkép (`arckezeles4.jpg`), sötét vagy púder sáv | „Időpontot kérek” → időpontkérő | Kész |
 | GYIK | 4 kérdés-válasz, harmonika | – | Kész |
@@ -109,11 +109,11 @@ Minden oldal alján: **Időpontkérő szakasz** (cím, szöveg, űrlap: teljes n
   - `arckezeles3.jpg` – világos, fekvő kép, a kozmetikus keze barna maszkkal → Folyamat / Kezelés lépés, Belico
   - `arckezeles4.jpg` – kesztyűs kéz, fehér maszk, tál, álló kép → Mesotica / Felhívás
   - `arkezeles5.jpg` – sötét, sejtelmes közeli arcmasszázs → óvatosan, max. egy hangulatkép (Énidő érték)
-  - `no_torolkozoben1.jpg` – világos stúdió profil, törölköző, álló kép → Eredmények / Probléma / Rólunk hero
-  - `Eliza.png` – **Eliza portréja** (1024×1536, álló): fehér kozmetikusi ruha, meleg, világos szalonháttér elmosódva, barátságos mosoly → Főoldal Bemutatkozás, Rólunk Történet (vagy Rólunk hero). Ez a kép a vállalkozás arca, kiemelten és nagy méretben kell használni.
-  - **Hiányzik, stock helyőrző kell:** a szalon belső tere (Rólunk / A szalon)
+  - `no_torolkozoben1.jpg` – világos stúdió profil, törölköző, álló kép → Eredmények / Probléma / Rólam hero
+  - `Eliza.png` – **Eliza portréja** (1024×1536, álló): fehér kozmetikusi ruha, meleg, világos szalonháttér elmosódva, barátságos mosoly → Főoldal Bemutatkozás, Rólam Történet (vagy Rólam hero). Ez a kép a vállalkozás arca, kiemelten és nagy méretben kell használni.
+  - **Hiányzik, stock helyőrző kell:** a szalon belső tere (Rólam / A szalon)
 
 ## CTA stratégia
 - **Elsődleges CTA:** „Időpontot kérek” / „Időpontot foglalok” → az oldal alján lévő időpontkérő űrlap (horgony), illetve kattintható telefonszám (`tel:+36203449272`)
-- **Másodlagos CTA:** „Megnézem a kezeléseket” → Kezelések · „Tovább olvasok” → Rólunk · „Kérem az ingyenes kisokost” → hírlevél
-- **CTA elhelyezés:** fejléc gomb (minden oldalon) · főoldali hero (Kezelések) · Felhívás szakaszok · a 3 csomagkártya „Ezt választom” gombja (az időpontkérőhöz, ideális esetben előtöltve a csomag nevével az üzenetmezőben) · Kezelések és Rólunk hero · időpontkérő szakasz minden oldal alján · mobilon kattintható telefonszám a fejlécben vagy a láblécben
+- **Másodlagos CTA:** „Megnézem a kezeléseket” → Kezelések · „Tovább olvasok” → Rólam · „Kérem az ingyenes kisokost” → hírlevél
+- **CTA elhelyezés:** fejléc gomb (minden oldalon) · főoldali hero (Kezelések) · Felhívás szakaszok · a 3 csomagkártya „Ezt választom” gombja (az időpontkérőhöz, ideális esetben előtöltve a csomag nevével az üzenetmezőben) · Kezelések és Rólam hero · időpontkérő szakasz minden oldal alján · mobilon kattintható telefonszám a fejlécben vagy a láblécben
