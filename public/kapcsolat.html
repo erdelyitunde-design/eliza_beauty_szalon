@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Eliza Beauty Salon, Budapest, Ráday u. 1. Személyre szabott arcfiatalító és anti-akné kezelések természetes hatóanyagokkal, elégedettségi garanciával.">
+  <meta name="description" content="Kérdésed van, vagy időpontot foglalnál? Írj nekem, vagy hívj: +36 20 344 9272. Eliza Beauty Salon, 1092 Budapest, Ráday u. 1., hétfőtől péntekig 9:00–16:00.">
   <title>Kapcsolat – Eliza Beauty Salon, Budapest, Ráday u. 1.</title>
   <link rel="icon" href="images/logo/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -475,8 +475,8 @@
     <nav class="nav" aria-label="Fő menü">
       <ul>
         <li><a href="index.html">Főoldal</a></li>
-        <li><a href="index.html#kezelesek">Kezelések</a></li>
-        <li><a href="index.html#rolam">Rólam</a></li>
+        <li><a href="kezelesek.html">Kezelések</a></li>
+        <li><a href="rolam.html">Rólam</a></li>
         <li><a href="kapcsolat.html" aria-current="page">Kapcsolat</a></li>
       </ul>
     </nav>
@@ -502,8 +502,8 @@
   <nav aria-label="Mobil menü">
     <ul>
       <li><a href="index.html" data-close>Főoldal</a></li>
-      <li><a href="index.html#kezelesek" data-close>Kezelések</a></li>
-      <li><a href="index.html#rolam" data-close>Rólam</a></li>
+      <li><a href="kezelesek.html" data-close>Kezelések</a></li>
+      <li><a href="rolam.html" data-close>Rólam</a></li>
       <li><a href="kapcsolat.html" data-close>Kapcsolat</a></li>
     </ul>
   </nav>
@@ -623,7 +623,7 @@
       </div>
       <div>
         <h3>Oldalak</h3>
-        <ul><li><a href="index.html">Főoldal</a></li><li><a href="index.html#kezelesek">Kezelések</a></li><li><a href="index.html#rolam">Rólam</a></li><li><a href="kapcsolat.html" aria-current="page">Kapcsolat</a></li></ul>
+        <ul><li><a href="index.html">Főoldal</a></li><li><a href="kezelesek.html">Kezelések</a></li><li><a href="rolam.html">Rólam</a></li><li><a href="kapcsolat.html" aria-current="page">Kapcsolat</a></li></ul>
       </div>
     </div>
     <div class="fbottom">
@@ -712,6 +712,9 @@
     function kSent(){ kf.classList.add('sent'); var t = kf.querySelector('.thanks'); t.setAttribute('tabindex','-1'); t.focus(); setTimeout(buildThread, 100); }
     function kError(msg){ kErr.textContent = msg; kErr.classList.add('show'); }
     if (/[?&]elkuldve=1/.test(location.search)) kSent();
+    /* a Kezelések oldal csomagjairól érkezve előre kitöltjük az üzenetet */
+    var csomag = new URLSearchParams(location.search).get('csomag');
+    if (csomag) { document.getElementById('k-uzenet').value = 'Szia Eliza! ' + (/^[aáeéiíoóöőuúüű]/i.test(csomag) ? 'Az ' : 'A ') + csomag + ' csomag érdekel, szeretnék időpontot egyeztetni.'; }
     kf.setAttribute('novalidate', '');
     kf.querySelectorAll('input[required],textarea[required]').forEach(function(f){
       f.addEventListener('input', function(){ if (f.checkValidity()) f.removeAttribute('aria-invalid'); });
