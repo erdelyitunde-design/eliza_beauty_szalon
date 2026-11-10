@@ -728,10 +728,6 @@
     });
   });
 
-  /* ---- űrlapok (csak látvány) ---- */
-  document.querySelectorAll('.js-form').forEach(function(f){
-    f.addEventListener('submit', function(e){ e.preventDefault(); f.classList.add('sent'); var t = f.querySelector('.thanks'); if (t) { t.setAttribute('tabindex','-1'); t.focus(); } setTimeout(buildThread, 100); });
-  });
 
 
   /* ---- Kapcsolati űrlap (Netlify Forms, AJAX küldés) ---- */
