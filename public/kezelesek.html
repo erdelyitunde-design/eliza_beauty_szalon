@@ -563,6 +563,15 @@
       .hero-media .photo img[src*="arckezeles2"]{object-position:50% 78%}
     }
   </style>
+  <style>
+    /* ============ Netlify űrlapok ============ */
+    .hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+    .form-error{display:none;margin:-4px 0 20px;padding:14px 18px;border-radius:12px;background:#fff;border:1px solid var(--rose);color:var(--rose-dark);font-size:15px;line-height:1.5}
+    .form-error.show{display:block}
+    .field [aria-invalid="true"]{border-color:var(--rose)}
+    .check input[aria-invalid="true"]{outline:2px solid var(--rose);outline-offset:2px}
+    form button[disabled]{opacity:.6;cursor:progress}
+  </style>
 </head>
 <body>
 <a class="skip" href="#tartalom">Ugrás a tartalomra</a>
@@ -864,11 +873,15 @@
         </div>
       </div>
       <div class="right">
-        <form class="form-card js-form rv rv-clip" novalidate>
+        <form class="form-card js-nf rv rv-clip" name="idopontkero" method="POST" action="/kezelesek.html?elkuldve=idopontkero#idopont" data-netlify="true" netlify-honeypot="bot-field" data-hiba="Töltsd ki a nevedet, az e-mail címedet és az üzenetet, hogy válaszolni tudjak.">
+          <input type="hidden" name="form-name" value="idopontkero">
+          <input type="hidden" name="oldal" value="Kezelések">
+          <p class="hp" aria-hidden="true"><label>Ezt a mezőt hagyd üresen: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
           <div class="fields">
-            <div class="field"><label for="b-name">Teljes név</label><input id="b-name" name="name" type="text" autocomplete="name"></div>
-            <div class="field"><label for="b-mail">E-mail cím</label><input id="b-mail" name="email" type="email" autocomplete="email"></div>
-            <div class="field"><label for="b-msg">Üzenet</label><textarea id="b-msg" name="message"></textarea></div>
+            <div class="field"><label for="b-name">Teljes név</label><input id="b-name" name="nev" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="b-mail">E-mail cím</label><input id="b-mail" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="b-msg">Üzenet</label><textarea id="b-msg" name="uzenet" required></textarea></div>
+            <p class="form-error" role="alert"></p>
             <button class="btn" type="submit">Küldés</button>
           </div>
           <p class="thanks" role="status" aria-live="polite">Köszönöm, hamarosan visszajelzek!</p>
@@ -981,9 +994,39 @@
     });
   });
 
-  /* ---- űrlapok (csak látvány) ---- */
-  document.querySelectorAll('.js-form').forEach(function(f){
-    f.addEventListener('submit', function(e){ e.preventDefault(); f.classList.add('sent'); var t = f.querySelector('.thanks'); if (t) { t.setAttribute('tabindex','-1'); t.focus(); } setTimeout(buildThread, 100); });
+  /* ---- űrlapok: valódi küldés a Netlify Formsnak ---- */
+  document.querySelectorAll('form.js-nf').forEach(function(f){
+    var err = f.querySelector('.form-error'), btn = f.querySelector('button[type="submit"]'), label = btn.textContent;
+    var req = f.querySelectorAll('[required]');
+    function sent(){ f.classList.add('sent'); var t = f.querySelector('.thanks'); t.setAttribute('tabindex','-1'); t.focus(); setTimeout(buildThread, 100); }
+    function fail(msg){ err.textContent = msg; err.classList.add('show'); }
+    function valid(x){ var ok = x.checkValidity(); if (ok) x.removeAttribute('aria-invalid'); else x.setAttribute('aria-invalid','true'); return ok; }
+    if (new URLSearchParams(location.search).get('elkuldve') === f.getAttribute('name')) sent();
+    f.setAttribute('novalidate', '');
+    req.forEach(function(x){ x.addEventListener(x.type === 'checkbox' ? 'change' : 'input', function(){ if (x.checkValidity()) x.removeAttribute('aria-invalid'); }); });
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      err.classList.remove('show');
+      var bad = Array.prototype.filter.call(req, function(x){ return !valid(x); });
+      if (bad.length) {
+        var mail = f.querySelector('input[type="email"]');
+        fail(bad.length === 1 && bad[0] === mail && mail.value ? 'Az e-mail cím formátuma nem jó. Ellenőrizd, például: nev@gmail.com.' : f.dataset.hiba);
+        bad[0].focus();
+        return;
+      }
+      if (location.protocol === 'file:') { fail('Ez a gépen megnyitott előnézet, innen nem lehet üzenetet küldeni. Próbáld az élő oldalon: beautiful-gecko-4219f6.netlify.app'); return; }
+      btn.disabled = true; btn.textContent = 'Küldés…';
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(f)).toString()
+      }).then(function(r){
+        if (!r.ok) throw new Error(r.status);
+        sent();
+      }).catch(function(){
+        fail('Az üzenet most nem ment el. Próbáld újra pár perc múlva, vagy hívj: +36 20 344 9272.');
+      }).then(function(){ btn.disabled = false; btn.textContent = label; });
+    });
   });
 
   /* ---- Aranyszál ---- */
