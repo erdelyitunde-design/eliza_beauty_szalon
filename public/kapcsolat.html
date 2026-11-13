@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kérdésed van, vagy időpontot foglalnál? Írj nekem, vagy hívj: +36 20 344 9272. Kata Beauty Salon, 1092 Budapest, Ráday u. 1., hétfőtől péntekig 9:00–16:00.">
-  <title>Kapcsolat – Kata Beauty Salon, Budapest, Ráday u. 1.</title>
+  <meta name="description" content="Kérdésed van, vagy időpontot foglalnál? Írj nekem, vagy hívj: +36 20 344 9272. Eliza Beauty Salon, 1092 Budapest, Ráday u. 1., hétfőtől péntekig 9:00–16:00.">
+  <title>Kapcsolat – Eliza Beauty Salon, Budapest, Ráday u. 1.</title>
   <link rel="icon" href="images/logo/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -498,8 +498,8 @@
 <!-- ============ Fejléc ============ -->
 <header class="header" id="header">
   <div class="wrap bar">
-    <a href="index.html" class="logo" aria-label="Kata Beauty Salon, főoldal">
-      <img src="images/logo/logo.svg" alt="Kata Beauty Salon" width="110" height="60">
+    <a href="index.html" class="logo" aria-label="Eliza Beauty Salon, főoldal">
+      <img src="images/logo/logo.svg" alt="Eliza Beauty Salon" width="110" height="60">
     </a>
     <nav class="nav" aria-label="Fő menü">
       <ul>
@@ -525,7 +525,7 @@
 <!-- mobilmenü -->
 <div class="mmenu" id="mmenu" role="dialog" aria-modal="true" aria-label="Menü" inert>
   <div class="mmenu-top">
-    <img src="images/logo/logo.svg" alt="Kata Beauty Salon" width="88" height="48">
+    <img src="images/logo/logo.svg" alt="Eliza Beauty Salon" width="88" height="48">
     <button class="mclose" id="mclose" type="button" aria-label="Menü bezárása"></button>
   </div>
   <nav aria-label="Mobil menü">
@@ -635,7 +635,7 @@
     </div>
     <div class="fgrid">
       <div>
-        <img class="flogo" src="images/logo/logo-feher.svg" alt="Kata Beauty Salon" width="117" height="64" loading="lazy">
+        <img class="flogo" src="images/logo/logo-feher.svg" alt="Eliza Beauty Salon" width="117" height="64" loading="lazy">
         <p style="max-width:360px">Személyre szabott kozmetikai kezelések bőrfiatalításra és problémás bőr kezelésére, modern technológiákkal és természetes hatóanyagokkal.</p>
       </div>
       <div>
@@ -656,7 +656,7 @@
       </div>
     </div>
     <div class="fbottom">
-      <span>© Kata Beauty Salon – Minden jog fenntartva!</span>
+      <span>© Eliza Beauty Salon – Minden jog fenntartva!</span>
       <a href="adatkezeles.html">Adatkezelési tájékoztató</a>
     </div>
   </div>
@@ -739,7 +739,7 @@
     if (/[?&]elkuldve=1/.test(location.search)) kSent();
     /* a Kezelések oldal csomagjairól érkezve előre kitöltjük az üzenetet */
     var csomag = new URLSearchParams(location.search).get('csomag');
-    if (csomag) { document.getElementById('k-uzenet').value = 'Szia Kata! ' + (/^[aáeéiíoóöőuúüű]/i.test(csomag) ? 'Az ' : 'A ') + csomag + ' csomag érdekel, szeretnék időpontot egyeztetni.'; }
+    if (csomag) { document.getElementById('k-uzenet').value = 'Szia Eliza! ' + (/^[aáeéiíoóöőuúüű]/i.test(csomag) ? 'Az ' : 'A ') + csomag + ' csomag érdekel, szeretnék időpontot egyeztetni.'; }
     kf.setAttribute('novalidate', '');
     kf.querySelectorAll('input[required],textarea[required]').forEach(function(f){
       f.addEventListener('input', function(){ if (f.checkValidity()) f.removeAttribute('aria-invalid'); });

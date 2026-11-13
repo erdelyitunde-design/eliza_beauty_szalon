@@ -1,6 +1,6 @@
-# Kata Beauty Salon – a weboldal szövegei
+# Eliza Beauty Salon – a weboldal szövegei
 
-A négy oldal kész szövege, szakaszonként, abban a sorrendben, ahogy a drótvázban szerepelnek. A szakaszok sorrendjén, a felosztásán és az elrendezésén változtathatsz, a szövegeket pedig rövidítheted vagy kiegészítheted. Új állítást (árat, számot, ígéretet) viszont ne találj ki Kata nevében.
+A négy oldal kész szövege, szakaszonként, abban a sorrendben, ahogy a drótvázban szerepelnek. A szakaszok sorrendjén, a felosztásán és az elrendezésén változtathatsz, a szövegeket pedig rövidítheted vagy kiegészítheted. Új állítást (árat, számot, ígéretet) viszont ne találj ki Eliza nevében.
 
 A **Kicker** a cím fölötti kis felirat.
 
@@ -10,7 +10,7 @@ A **Kicker** a cím fölötti kis felirat.
 
 ### Fejléc
 
-- Logó: Kata Beauty Salon
+- Logó: Eliza Beauty Salon
 - Menü: Főoldal · Kezelések · Rólam · Kapcsolat
 
 ### Időpontkérő szakasz (minden oldal alján, a lábléc fölött)
@@ -26,7 +26,7 @@ A **Kicker** a cím fölötti kis felirat.
 - **Elérhetőség:** 1092 Budapest, Ráday u. 1. · +36 20 344 9272 · hello.elizabeauty@gmail.com
 - **Nyitvatartás:** H–P: 9:00–16:00 · Szo–V: zárva
 - **Oldalak:** Főoldal · Kezelések · Rólam · Kapcsolat
-- **Alsó sor:** © Kata Beauty Salon – Minden jog fenntartva! | Adatkezelési tájékoztató
+- **Alsó sor:** © Eliza Beauty Salon – Minden jog fenntartva! | Adatkezelési tájékoztató
 
 ---
 
@@ -36,15 +36,15 @@ A **Kicker** a cím fölötti kis felirat.
 
 - **Kicker:** A szépség mindenkié
 - **Cím (H1):** Személyre szabott kozmetikai kezelések
-- **Szöveg:** A Kata Beauty Salon olyan professzionális kozmetikai megoldásokat kínál, amelyek természetes hatóanyagokkal és a legmodernebb bőrfiatalító technológiákkal érnek el látványos, tartós eredményeket. Nincs fájdalom, nincs kockázat – csak ragyogó, egészséges bőr, amely visszaadja az önbizalmadat. Foglalj időpontot, és tapasztald meg a különbséget!
+- **Szöveg:** Az Eliza Beauty Salon olyan professzionális kozmetikai megoldásokat kínál, amelyek természetes hatóanyagokkal és a legmodernebb bőrfiatalító technológiákkal érnek el látványos, tartós eredményeket. Nincs fájdalom, nincs kockázat – csak ragyogó, egészséges bőr, amely visszaadja az önbizalmadat. Foglalj időpontot, és tapasztald meg a különbséget!
 - **Gomb:** Megnézem a kezeléseket → Kezelések oldal
 
 ### Vélemények
 
 - **Kicker:** A minőség mércéje: a visszatérő vendégek
 - **Cím:** Valódi eredmények, elégedett vendégek
-- **Fruzsi:** „Korábbi rossz tapasztalatok miatt sokáig nem mertem kozmetikushoz járni, de ez az itt töltött első alkalmat követően megváltozott. A bőröm minden kezelés után szinte ragyog, remekül érzem magam, és Kata segítségével sikerült kialakítanom a helyes, bőrtípusomnak megfelelő arcápolási rutint. Szívből ajánlom!”
-- **Magdi:** „Kata nagyon kedves, csupaszív kozmetikus, a kozmetika csodaszép, tiszta, hangulatos, mindig örömmel járok ide vissza. Legutóbb a 10 alkalmas arcfiatalító kezelést vettem igénybe, és az eredmény magáért beszél, azóta több pozitív visszajelzést is kaptam ismerőseimtől. Csak ajánlani tudom Katát!”
+- **Fruzsi:** „Korábbi rossz tapasztalatok miatt sokáig nem mertem kozmetikushoz járni, de ez az itt töltött első alkalmat követően megváltozott. A bőröm minden kezelés után szinte ragyog, remekül érzem magam, és Eliza segítségével sikerült kialakítanom a helyes, bőrtípusomnak megfelelő arcápolási rutint. Szívből ajánlom!”
+- **Magdi:** „Eliza nagyon kedves, csupaszív kozmetikus, a kozmetika csodaszép, tiszta, hangulatos, mindig örömmel járok ide vissza. Legutóbb a 10 alkalmas arcfiatalító kezelést vettem igénybe, és az eredmény magáért beszél, azóta több pozitív visszajelzést is kaptam ismerőseimtől. Csak ajánlani tudom Elizát!”
 
 ### Előnyök
 
@@ -58,7 +58,7 @@ A **Kicker** a cím fölötti kis felirat.
 ### Bemutatkozás
 
 - **Cím:** Ismerd meg a szakértődet!
-- **Szöveg:** Sipos Kata vagyok, a Kata Beauty Salon megálmodója. 14 éve segítek vendégeimnek abban, hogy bőrük egészségesebb, fiatalosabb és ragyogóbb legyen. A szépségipar mindig is a szenvedélyem volt, ezért folyamatosan fejlesztem tudásomat, hogy a legmodernebb technológiákkal és leghatékonyabb hatóanyagokkal dolgozhassak. A Beauty Academy szakmai trénereként és a kozmetikus mesterképzés elvégzése után célom, hogy minden vendégem személyre szabott, professzionális kezelést kapjon. Nálam nincs sablonkezelés, csak valódi törődés és hosszú távú megoldások.
+- **Szöveg:** Sipos Eliza vagyok, az Eliza Beauty Salon megálmodója. 14 éve segítek vendégeimnek abban, hogy bőrük egészségesebb, fiatalosabb és ragyogóbb legyen. A szépségipar mindig is a szenvedélyem volt, ezért folyamatosan fejlesztem tudásomat, hogy a legmodernebb technológiákkal és leghatékonyabb hatóanyagokkal dolgozhassak. A Beauty Academy szakmai trénereként és a kozmetikus mesterképzés elvégzése után célom, hogy minden vendégem személyre szabott, professzionális kezelést kapjon. Nálam nincs sablonkezelés, csak valódi törődés és hosszú távú megoldások.
 - **Számok:** 14+ év tapasztalat · 1300+ vendég · 350+ féle kozmetikum
 - **Gomb:** Tovább olvasok → Rólam oldal
 
@@ -175,7 +175,7 @@ Ugyanazok, mint a főoldalon („Valódi eredmények, elégedett vendégek”, �
 
 - **Kicker:** Ismerd meg a szakértődet!
 - **Cím:** Egy álomból született szalon
-- **Szöveg:** Szia, Kata vagyok, a leendő kozmetikusod! A szépség mindig is az életem része volt, így nem volt kérdés, hogy a kozmetika lesz a hivatásom. 2011-ben megnyitottam saját szalonomat, a Kata Beauty Salont, ahol azóta is azon dolgozom, hogy vendégeim bőre ne csak szebb, hanem egészségesebb is legyen. Az első évek sok tanulással és kihívással teltek, de a kitartásomnak köszönhetően folyamatosan fejlődtem. 2018-ban a Beauty Academy szakmai trénereként és oktatójaként dolgoztam, segítve más kozmetikusokat a legmodernebb eljárások elsajátításában. 2019-ben mesterkozmetikusi címet szereztem, hogy még magasabb szinten végezhessem a kezeléseimet. Hiszem, hogy a kozmetika többről szól, mint a szép bőrről – önbizalomról, jó közérzetről és énidőről is. Ezért a kezeléseim célja nemcsak a látványos eredmény, hanem az is, hogy vendégeim feltöltődve és magabiztosan távozzanak.
+- **Szöveg:** Szia, Eliza vagyok, a leendő kozmetikusod! A szépség mindig is az életem része volt, így nem volt kérdés, hogy a kozmetika lesz a hivatásom. 2011-ben megnyitottam saját szalonomat, az Eliza Beauty Salont, ahol azóta is azon dolgozom, hogy vendégeim bőre ne csak szebb, hanem egészségesebb is legyen. Az első évek sok tanulással és kihívással teltek, de a kitartásomnak köszönhetően folyamatosan fejlődtem. 2018-ban a Beauty Academy szakmai trénereként és oktatójaként dolgoztam, segítve más kozmetikusokat a legmodernebb eljárások elsajátításában. 2019-ben mesterkozmetikusi címet szereztem, hogy még magasabb szinten végezhessem a kezeléseimet. Hiszem, hogy a kozmetika többről szól, mint a szép bőrről – önbizalomról, jó közérzetről és énidőről is. Ezért a kezeléseim célja nemcsak a látványos eredmény, hanem az is, hogy vendégeim feltöltődve és magabiztosan távozzanak.
 - **Kiemelések:** 14 év tapasztalat · Több mint 1300 vendég · Szakmai tréner és oktató · Mesterkozmetikus
 
 ### Értékek
@@ -192,8 +192,8 @@ Ugyanazok, mint a főoldalon („Valódi eredmények, elégedett vendégek”, �
 ### A szalon
 
 - **Kicker:** Profizmus és harmónia
-- **Cím:** Ezt kapod a Kata Beauty Salonban
-- **Szöveg:** A kezelések hatékonysága nemcsak a szakértelmen, hanem a környezeten is múlik. A Kata Beauty Salon egy olyan hely, ahol a legmodernebb technológiák, a prémium hatóanyagok és a nyugodt, exkluzív légkör egyesülnek. Itt minden arról szól, hogy a bőröd megkapja a legjobb törődést, te pedig egy pillanatra kiszakadhass a mindennapok rohanásából.
+- **Cím:** Ezt kapod az Eliza Beauty Salonban
+- **Szöveg:** A kezelések hatékonysága nemcsak a szakértelmen, hanem a környezeten is múlik. Az Eliza Beauty Salon egy olyan hely, ahol a legmodernebb technológiák, a prémium hatóanyagok és a nyugodt, exkluzív légkör egyesülnek. Itt minden arról szól, hogy a bőröd megkapja a legjobb törődést, te pedig egy pillanatra kiszakadhass a mindennapok rohanásából.
 
 ### Felhívás
 
