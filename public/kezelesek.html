@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Belico és Mesotica arckezelések, mezoterápia, fotorejuvenáció és anti-akné kezelések a Ráday utcában. Kezelési csomagok 59 000 Ft-tól, elégedettségi garanciával.">
-  <title>Kezelések és csomagok – Eliza Beauty Salon, Budapest</title>
+  <title>Kezelések és csomagok – Katalin Beauty Salon, Budapest</title>
   <link rel="icon" href="images/logo/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,7 +53,7 @@
     }
   </style>
   <style>
-    /* ============ Aranyszál: tokenek ============ */
+    /* ============ Tokenek ============ */
     :root{
       --rose:#8E4A5A; --rose-dark:#6E3644; --gold:#C9A27E; --cream:#FAF6F2;
       --powder:#F1E6DF; --cocoa:#2E2626; --muted:#6B5F5C; --line:#E3D6CF;
@@ -108,13 +108,6 @@
     .btn-light:hover{background:var(--cream);color:var(--cocoa);border-color:var(--cream)}
     .btn-sm{padding:12px 22px;font-size:13px}
 
-    /* ============ Aranyszál réteg ============ */
-    #thread{position:absolute;top:0;left:0;width:100%;pointer-events:none;z-index:1;overflow:hidden}
-    #thread svg{display:block;width:100%;height:100%;overflow:visible}
-    #threadPath{fill:none;stroke:var(--gold);stroke-width:1.25;stroke-linecap:round}
-    #threadTip{fill:var(--gold)}
-    #threadStart{fill:var(--gold)}
-    @media (max-width:767px){#threadPath{stroke-width:1}}
 
     /* logó-vonal díszítő (vonal • vonal) */
     .ornament{display:flex;align-items:center;gap:10px;color:var(--gold)}
@@ -124,9 +117,9 @@
     /* ============ Fejléc ============ */
     .header{position:fixed;top:0;left:0;right:0;z-index:50;height:var(--header-h);background:#fff;box-shadow:0 1px 0 var(--line);transition:height .6s var(--ease),background-color .6s var(--ease),box-shadow .6s var(--ease),backdrop-filter .6s var(--ease)}
     .header .bar{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
-    .header .logo img{height:58px;width:auto;transition:height .6s var(--ease)}
+    .header .logo .klogo{height:58px;width:auto;transition:height .6s var(--ease)}
     .header.scrolled{--header-h:68px;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(14px) saturate(1.1);backdrop-filter:blur(14px) saturate(1.1);box-shadow:0 1px 0 var(--line),0 6px 24px rgba(46,38,38,.05)}
-    .header.scrolled .logo img{height:42px}
+    .header.scrolled .logo .klogo{height:42px}
     .nav{display:none}
     .nav ul{display:flex;gap:36px}
     .nav a{position:relative;font-size:15px;letter-spacing:.02em;padding:6px 0;color:var(--cocoa)}
@@ -147,13 +140,13 @@
       .nav{display:block}.head-cta{display:inline-flex}.m-phone,.burger{display:none}
     }
     @media (min-width:1200px){.head-phone{display:inline}}
-    @media (max-width:767px){.header .logo img{height:48px}.header.scrolled .logo img{height:38px}:root{--header-h:76px}.header.scrolled{--header-h:62px}}
+    @media (max-width:767px){.header .logo .klogo{height:48px}.header.scrolled .logo .klogo{height:38px}:root{--header-h:76px}.header.scrolled{--header-h:62px}}
 
     /* mobilmenü */
     .mmenu{position:fixed;inset:0;z-index:60;overflow-y:auto;background:var(--cream);display:flex;flex-direction:column;padding:20px;visibility:hidden;opacity:0;transition:opacity .5s var(--ease),visibility 0s linear .5s}
     .mmenu.open{visibility:visible;opacity:1;transition:opacity .5s var(--ease)}
     .mmenu-top{display:flex;justify-content:space-between;align-items:center;height:56px}
-    .mmenu-top img{height:48px;width:auto}
+    .mmenu-top .klogo{height:48px;width:auto}
     .mclose{width:44px;height:44px;border-radius:999px;border:1px solid var(--line);background:transparent;position:relative;cursor:pointer}
     .mclose::before,.mclose::after{content:"";position:absolute;left:12px;right:12px;top:50%;height:1px;background:var(--cocoa);transform:rotate(45deg)}
     .mclose::after{transform:rotate(-45deg)}
@@ -579,8 +572,8 @@
 <!-- ============ Fejléc ============ -->
 <header class="header" id="header">
   <div class="wrap bar">
-    <a href="index.html" class="logo" aria-label="Eliza Beauty Salon, főoldal">
-      <img src="images/logo/logo.svg" alt="Eliza Beauty Salon" width="110" height="60">
+    <a href="index.html" class="logo" aria-label="Katalin Beauty Salon, főoldal">
+      <svg class="klogo" xmlns="http://www.w3.org/2000/svg" viewBox="8 0 92 94" width="60" height="61" aria-hidden="true" focusable="false"><g fill="#6E3644"><path d="M14 18H43V20.4Q36 20.7 35 24V82Q36 85.3 43 85.6V88H14V85.6Q21 85.3 22 82V24Q21 20.7 14 20.4Z"/><path d="M35 58.5L65.5 24.6Q66.6 21 61 20.4V18H83V20.4Q76.5 20.9 70.5 26.4L37.6 61.4Z"/><path d="M43.2 51.2L50.6 44.6L79.6 81.6Q82.3 85.2 89 85.6V88H64.5V85.6Q70.4 85.3 68.6 82.4Z"/></g><g transform="translate(86 11)"><path fill="#C9A27E" d="M-3 4Q-11 6 -14 13Q-6 12 -3 4Z"/><g fill="#C9A27E"><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(72)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(144)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(216)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(288)"/></g><circle r="2" fill="#8E4A5A"/></g></svg>
     </a>
     <nav class="nav" aria-label="Fő menü">
       <ul>
@@ -606,7 +599,7 @@
 <!-- mobilmenü -->
 <div class="mmenu" id="mmenu" role="dialog" aria-modal="true" aria-label="Menü" inert>
   <div class="mmenu-top">
-    <img src="images/logo/logo.svg" alt="Eliza Beauty Salon" width="88" height="48">
+    <svg class="klogo" xmlns="http://www.w3.org/2000/svg" viewBox="8 0 92 94" width="48" height="49" role="img" aria-label="Katalin Beauty Salon"><g fill="#6E3644"><path d="M14 18H43V20.4Q36 20.7 35 24V82Q36 85.3 43 85.6V88H14V85.6Q21 85.3 22 82V24Q21 20.7 14 20.4Z"/><path d="M35 58.5L65.5 24.6Q66.6 21 61 20.4V18H83V20.4Q76.5 20.9 70.5 26.4L37.6 61.4Z"/><path d="M43.2 51.2L50.6 44.6L79.6 81.6Q82.3 85.2 89 85.6V88H64.5V85.6Q70.4 85.3 68.6 82.4Z"/></g><g transform="translate(86 11)"><path fill="#C9A27E" d="M-3 4Q-11 6 -14 13Q-6 12 -3 4Z"/><g fill="#C9A27E"><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(72)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(144)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(216)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(288)"/></g><circle r="2" fill="#8E4A5A"/></g></svg>
     <button class="mclose" id="mclose" type="button" aria-label="Menü bezárása"></button>
   </div>
   <nav aria-label="Mobil menü">
@@ -624,22 +617,14 @@
   </div>
 </div>
 
-<!-- aranyszál réteg -->
-<div id="thread" aria-hidden="true">
-  <svg id="threadSvg" preserveAspectRatio="none">
-    <path id="threadPath" d=""/>
-    <circle id="threadStart" r="3.5" cx="-20" cy="-20"/>
-    <circle id="threadTip" r="3" cx="-20" cy="-20"/>
-  </svg>
-</div>
 
 <main id="tartalom">
 
   <!-- ============ Hero ============ -->
-  <section class="hero bg-cream" id="hero" data-thread="2" data-tx="L" data-ty="bottom" data-dy="-36">
+  <section class="hero bg-cream" id="hero">
     <div class="wrap g12">
       <div class="hero-text">
-        <p class="kicker" data-in style="--d:.1s" data-thread="1" data-tx="L">Neked is jár a sima, egészséges bőr!</p>
+        <p class="kicker" data-in style="--d:.1s">Neked is jár a sima, egészséges bőr!</p>
         <h1 class="h1">
           <span class="ln"><span style="--d:.25s">Szakértői kozmetikai</span></span>
           <span class="ln"><span style="--d:.4s">megoldások</span></span>
@@ -659,11 +644,10 @@
   </section>
 
   <!-- ============ Probléma ============ -->
-  <section class="sec bg-powder problem" id="problema" aria-labelledby="prob-cim" data-thread="4" data-tx="R" data-ty="bottom" data-dy="-48">
+  <section class="sec bg-powder problem" id="problema" aria-labelledby="prob-cim">
     <svg class="arc" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
       <path d="M0 0 H1440 V0 C1080 104 360 104 0 0 Z" fill="#FAF6F2"/>
     </svg>
-    <span class="sr" data-thread="3" data-tx="R" data-ty="top" data-dy="96" style="position:absolute;top:0"></span>
     <div class="wrap g12">
       <div class="intro">
         <h2 class="h2 rv rv-up" id="prob-cim">A bőröd mesél rólad, de mit üzen?</h2>
@@ -680,7 +664,7 @@
   </section>
 
   <!-- ============ Kezelések ============ -->
-  <section class="sec bg-cream" id="kezelesek" aria-labelledby="kez-cim" data-thread="5" data-tx="R" data-ty="bottom" data-dy="-40">
+  <section class="sec bg-cream" id="kezelesek" aria-labelledby="kez-cim">
     <div class="wrap">
       <h2 class="sr" id="kez-cim">Kezelések</h2>
       <div class="g12 cards">
@@ -723,7 +707,7 @@
   </section>
 
   <!-- ============ Eredmények ============ -->
-  <section class="sec bg-powder results" id="eredmenyek" aria-labelledby="ered-cim" data-thread="6" data-tx="L" data-ty="bottom" data-dy="-40">
+  <section class="sec bg-powder results" id="eredmenyek" aria-labelledby="ered-cim">
     <div class="wrap g12">
       <div class="ph-col">
         <div class="frame rv rv-fade" style="--d:.3s" aria-hidden="true"></div>
@@ -748,7 +732,6 @@
 
   <!-- ============ Garancia (sötét) ============ -->
   <section class="sec bg-cocoa on-dark guarantee" id="garancia" aria-labelledby="gar-cim">
-    <span class="sr" data-thread="7" data-tx="L" data-ty="bottom" data-dy="-48" style="position:absolute;bottom:0"></span>
     <div class="wrap g12">
       <div class="seal-col rv rv-fade">
         <div class="seal" role="img" aria-label="Elégedettségi garancia: 50% visszatérítés">
@@ -773,8 +756,7 @@
   </section>
 
   <!-- ============ Csomagok ============ -->
-  <section class="sec bg-cream packages" id="csomagok" aria-labelledby="csom-cim" data-thread="9" data-tx="R" data-ty="bottom" data-dy="-40">
-    <span class="sr" data-thread="8" data-tx="L" data-ty="top" data-dy="96" style="position:absolute;top:0"></span>
+  <section class="sec bg-cream packages" id="csomagok" aria-labelledby="csom-cim">
     <div class="wrap">
       <div class="g12 treat-head">
         <div class="t">
@@ -823,7 +805,7 @@
   </section>
 
   <!-- ============ Vélemények ============ -->
-  <section class="sec bg-cream" id="velemenyek" aria-labelledby="vel-cim" data-thread="10" data-tx="L" data-ty="bottom" data-dy="-72">
+  <section class="sec bg-cream" id="velemenyek" aria-labelledby="vel-cim">
     <div class="wrap">
       <div class="reviews-head">
         <p class="kicker rv rv-up">A minőség mércéje: a visszatérő vendégek</p>
@@ -832,12 +814,12 @@
       <div class="g12 quotes">
         <figure class="quote q1 rv rv-blur">
           <div class="qmark" aria-hidden="true"><span>„</span><i class="rv rv-line" style="--d:.4s"></i></div>
-          <blockquote><p>Korábbi rossz tapasztalatok miatt sokáig nem mertem kozmetikushoz járni, de ez az itt töltött első alkalmat követően megváltozott. A bőröm minden kezelés után szinte ragyog, remekül érzem magam, és Eliza segítségével sikerült kialakítanom a helyes, bőrtípusomnak megfelelő arcápolási rutint. Szívből ajánlom!”</p></blockquote>
+          <blockquote><p>Korábbi rossz tapasztalatok miatt sokáig nem mertem kozmetikushoz járni, de ez az itt töltött első alkalmat követően megváltozott. A bőröm minden kezelés után szinte ragyog, remekül érzem magam, és Katalin segítségével sikerült kialakítanom a helyes, bőrtípusomnak megfelelő arcápolási rutint. Szívből ajánlom!”</p></blockquote>
           <figcaption>Fruzsi</figcaption>
         </figure>
         <figure class="quote q2 rv rv-blur">
           <div class="qmark" aria-hidden="true"><span>„</span><i class="rv rv-line" style="--d:.4s"></i></div>
-          <blockquote><p>Eliza nagyon kedves, csupaszív kozmetikus, a kozmetika csodaszép, tiszta, hangulatos, mindig örömmel járok ide vissza. Legutóbb a 10 alkalmas arcfiatalító kezelést vettem igénybe, és az eredmény magáért beszél, azóta több pozitív visszajelzést is kaptam ismerőseimtől. Csak ajánlani tudom Elizát!”</p></blockquote>
+          <blockquote><p>Katalin nagyon kedves, csupaszív kozmetikus, a kozmetika csodaszép, tiszta, hangulatos, mindig örömmel járok ide vissza. Legutóbb a 10 alkalmas arcfiatalító kezelést vettem igénybe, és az eredmény magáért beszél, azóta több pozitív visszajelzést is kaptam ismerőseimtől. Csak ajánlani tudom Katalint!”</p></blockquote>
           <figcaption>Magdi</figcaption>
         </figure>
       </div>
@@ -846,21 +828,21 @@
 
 
   <!-- ============ Folyamat ============ -->
-  <section class="sec bg-cream process" id="folyamat" aria-labelledby="foly-cim" data-thread="16" data-tx="R" data-ty="bottom" data-dy="-24">
+  <section class="sec bg-cream process" id="folyamat" aria-labelledby="foly-cim">
     <div class="wrap">
       <div class="g12"><div class="head"><h2 class="h2 rv rv-up" id="foly-cim">Hogyan működik?</h2></div></div>
       <ol class="steps">
-        <li class="step rv rv-fade"><span class="dot" data-thread="11"></span><span class="num" aria-hidden="true">1</span><h3 class="h3"><span class="sr">1. </span>Időpont-egyeztetés</h3><p>Vendégeimet kizárólag előre egyeztetett időpontban tudom fogadni, hétfőtől péntekig 9:00 és 16:00 között. Telefonon vagy az űrlapon keresztül tudsz bejelentkezni, amire rövid időn belül visszajelzek.</p></li>
-        <li class="step rv rv-fade" style="--d:.15s"><span class="dot" data-thread="12"></span><span class="num" aria-hidden="true">2</span><h3 class="h3"><span class="sr">2. </span>Diagnosztika és kezelési terv</h3><p>A kezelés előtt alaposan felmérem a bőröd állapotát, megismerem arcápolási szokásaidat, az eddig használt termékeidet, és ezek alapján összeállítom a számodra legmegfelelőbb kezelési tervet.</p></li>
-        <li class="step rv rv-fade" style="--d:.3s"><span class="dot" data-thread="13"></span><span class="num" aria-hidden="true">3</span><h3 class="h3"><span class="sr">3. </span>Kozmetikai kezelés</h3><p>A személyre szabott terv alapján végzem el a kezelést, amelyet minden esetben egy relaxáló arcmasszázs egészít ki, hogy a bőröd felfrissüljön és a hatóanyagok még jobban beépüljenek.</p></li>
-        <li class="step rv rv-fade" style="--d:.45s"><span class="dot" data-thread="14"><i class="tR" data-thread="15" data-tx="R"></i></span><span class="num" aria-hidden="true">4</span><h3 class="h3"><span class="sr">4. </span>Tanácsok otthonra</h3><p>A kezelést követően segítek az otthoni bőrápolási rutinod kialakításában, hogy a bőröd tartósan egészséges és ragyogó maradjon. Személyre szabott termékajánlásokkal és praktikus tanácsokkal látlak el.</p></li>
+        <li class="step rv rv-fade"><span class="dot"></span><span class="num" aria-hidden="true">1</span><h3 class="h3"><span class="sr">1. </span>Időpont-egyeztetés</h3><p>Vendégeimet kizárólag előre egyeztetett időpontban tudom fogadni, hétfőtől péntekig 9:00 és 16:00 között. Telefonon vagy az űrlapon keresztül tudsz bejelentkezni, amire rövid időn belül visszajelzek.</p></li>
+        <li class="step rv rv-fade" style="--d:.15s"><span class="dot"></span><span class="num" aria-hidden="true">2</span><h3 class="h3"><span class="sr">2. </span>Diagnosztika és kezelési terv</h3><p>A kezelés előtt alaposan felmérem a bőröd állapotát, megismerem arcápolási szokásaidat, az eddig használt termékeidet, és ezek alapján összeállítom a számodra legmegfelelőbb kezelési tervet.</p></li>
+        <li class="step rv rv-fade" style="--d:.3s"><span class="dot"></span><span class="num" aria-hidden="true">3</span><h3 class="h3"><span class="sr">3. </span>Kozmetikai kezelés</h3><p>A személyre szabott terv alapján végzem el a kezelést, amelyet minden esetben egy relaxáló arcmasszázs egészít ki, hogy a bőröd felfrissüljön és a hatóanyagok még jobban beépüljenek.</p></li>
+        <li class="step rv rv-fade" style="--d:.45s"><span class="dot"></span><span class="num" aria-hidden="true">4</span><h3 class="h3"><span class="sr">4. </span>Tanácsok otthonra</h3><p>A kezelést követően segítek az otthoni bőrápolási rutinod kialakításában, hogy a bőröd tartósan egészséges és ragyogó maradjon. Személyre szabott termékajánlásokkal és praktikus tanácsokkal látlak el.</p></li>
       </ol>
     </div>
   </section>
 
 
   <!-- ============ Időpontkérő ============ -->
-  <section class="sec bg-powder book-sec" id="idopont" aria-labelledby="idop-cim" data-thread="19" data-tx="L" data-ty="bottom" data-dy="-24">
+  <section class="sec bg-powder book-sec" id="idopont" aria-labelledby="idop-cim">
     <div class="wrap g12">
       <div class="left">
         <h2 class="h2 rv rv-up" id="idop-cim">Foglalj időpontot, és induljon a változás!</h2>
@@ -895,13 +877,11 @@
 <footer class="footer on-dark">
   <div class="wrap">
     <div class="tagline-row rv rv-fade">
-      <span class="endpoint" data-thread="21" aria-hidden="true"></span>
       <p class="tagline">A szépség mindenkié</p>
-      <span class="sr" data-thread="20" data-tx="L" aria-hidden="true" style="position:absolute;left:0;top:50%"></span>
     </div>
     <div class="fgrid">
       <div>
-        <img class="flogo" src="images/logo/logo-feher.svg" alt="Eliza Beauty Salon" width="117" height="64" loading="lazy">
+        <svg class="flogo" xmlns="http://www.w3.org/2000/svg" viewBox="8 0 92 94" width="64" height="65" role="img" aria-label="Katalin Beauty Salon"><g fill="#FAF6F2"><path d="M14 18H43V20.4Q36 20.7 35 24V82Q36 85.3 43 85.6V88H14V85.6Q21 85.3 22 82V24Q21 20.7 14 20.4Z"/><path d="M35 58.5L65.5 24.6Q66.6 21 61 20.4V18H83V20.4Q76.5 20.9 70.5 26.4L37.6 61.4Z"/><path d="M43.2 51.2L50.6 44.6L79.6 81.6Q82.3 85.2 89 85.6V88H64.5V85.6Q70.4 85.3 68.6 82.4Z"/></g><g transform="translate(86 11)"><path fill="#C9A27E" d="M-3 4Q-11 6 -14 13Q-6 12 -3 4Z"/><g fill="#C9A27E"><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(72)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(144)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(216)"/><ellipse cx="0" cy="-4.3" rx="2.9" ry="4.4" transform="rotate(288)"/></g><circle r="2" fill="#FAF6F2"/></g></svg>
         <p style="max-width:360px">Személyre szabott kozmetikai kezelések bőrfiatalításra és problémás bőr kezelésére, modern technológiákkal és természetes hatóanyagokkal.</p>
       </div>
       <div>
@@ -922,7 +902,7 @@
       </div>
     </div>
     <div class="fbottom">
-      <span>© Eliza Beauty Salon – Minden jog fenntartva!</span>
+      <span>© Katalin Beauty Salon – Minden jog fenntartva!</span>
       <a href="adatkezeles.html">Adatkezelési tájékoztató</a>
     </div>
   </div>
@@ -990,7 +970,6 @@
     btn.addEventListener('click', function(){
       var item = btn.closest('.acc-item'), open = btn.getAttribute('aria-expanded') === 'true';
       btn.setAttribute('aria-expanded', String(!open)); item.classList.toggle('open', !open);
-      setTimeout(buildThread, 760);
     });
   });
 
@@ -998,7 +977,7 @@
   document.querySelectorAll('form.js-nf').forEach(function(f){
     var err = f.querySelector('.form-error'), btn = f.querySelector('button[type="submit"]'), label = btn.textContent;
     var req = f.querySelectorAll('[required]');
-    function sent(){ f.classList.add('sent'); var t = f.querySelector('.thanks'); t.setAttribute('tabindex','-1'); t.focus(); setTimeout(buildThread, 100); }
+    function sent(){ f.classList.add('sent'); var t = f.querySelector('.thanks'); t.setAttribute('tabindex','-1'); t.focus(); }
     function fail(msg){ err.textContent = msg; err.classList.add('show'); }
     function valid(x){ var ok = x.checkValidity(); if (ok) x.removeAttribute('aria-invalid'); else x.setAttribute('aria-invalid','true'); return ok; }
     if (new URLSearchParams(location.search).get('elkuldve') === f.getAttribute('name')) sent();
@@ -1029,69 +1008,6 @@
     });
   });
 
-  /* ---- Aranyszál ---- */
-  var layer = document.getElementById('thread'), svg = document.getElementById('threadSvg'),
-      path = document.getElementById('threadPath'), tip = document.getElementById('threadTip'), sdot = document.getElementById('threadStart');
-  var L = 0, samples = [], N = 0;
-
-  function gutters(){
-    var vw = root.clientWidth, g = Math.max(10, (vw - 1200) / 2 - 44);
-    if (vw < 768) return { L: 9, R: 9 };
-    return { L: g, R: vw - g };
-  }
-  function point(el, G){
-    var r = el.getBoundingClientRect(), sy = window.scrollY, ty = el.dataset.ty || 'center', dy = parseFloat(el.dataset.dy || 0);
-    var x = r.left + r.width / 2, y = ty === 'top' ? r.top + sy : ty === 'bottom' ? r.bottom + sy : r.top + sy + r.height / 2;
-    y += dy;
-    if (el.dataset.tx === 'L') x = G.L; else if (el.dataset.tx === 'R') x = G.R;
-    return { x: x, y: y };
-  }
-  function buildThread(){
-    var G = gutters();
-    var els = Array.prototype.slice.call(document.querySelectorAll('[data-thread]'))
-      .sort(function(a,b){ return a.dataset.thread - b.dataset.thread; });
-    var pts = els.map(function(el){ return point(el, G); });
-    var foot = document.querySelector('.footer');
-    var H = foot.getBoundingClientRect().bottom + window.scrollY;
-    layer.style.height = H + 'px';
-    svg.setAttribute('viewBox', '0 0 ' + root.clientWidth + ' ' + H);
-    var d = 'M' + pts[0].x.toFixed(1) + ' ' + pts[0].y.toFixed(1);
-    for (var i = 1; i < pts.length; i++){
-      var a = pts[i-1], b = pts[i], dy = b.y - a.y;
-      if (Math.abs(dy) < 90 && Math.abs(b.x - a.x) > 40) {
-        var mx = (b.x - a.x) * 0.5;
-        d += ' C' + (a.x + mx).toFixed(1) + ' ' + a.y.toFixed(1) + ' ' + (b.x - mx).toFixed(1) + ' ' + b.y.toFixed(1) + ' ' + b.x.toFixed(1) + ' ' + b.y.toFixed(1);
-      } else {
-        var k = dy * 0.55;
-        d += ' C' + a.x.toFixed(1) + ' ' + (a.y + k).toFixed(1) + ' ' + b.x.toFixed(1) + ' ' + (b.y - k).toFixed(1) + ' ' + b.x.toFixed(1) + ' ' + b.y.toFixed(1);
-      }
-    }
-    path.setAttribute('d', d);
-    L = path.getTotalLength();
-    path.style.strokeDasharray = L;
-    sdot.setAttribute('cx', pts[0].x); sdot.setAttribute('cy', pts[0].y);
-    N = Math.max(200, Math.min(2400, Math.round(L / 5)));
-    samples = []; var maxY = -Infinity;
-    for (var j = 0; j <= N; j++){ var p = path.getPointAtLength(L * j / N); maxY = Math.max(maxY, p.y); samples.push({ x: p.x, y: p.y, m: maxY }); }
-    drawThread();
-  }
-  function drawThread(){
-    if (!N) return;
-    var i;
-    if (reduce) { i = N; }
-    else {
-      var target = window.scrollY + window.innerHeight * 0.62;
-      if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4) target = Infinity;
-      var lo = 0, hi = N;
-      while (lo < hi){ var mid = (lo + hi) >> 1; if (samples[mid].m < target) lo = mid + 1; else hi = mid; }
-      i = lo;
-    }
-    path.style.strokeDashoffset = (L - L * i / N).toFixed(1);
-    var s = samples[i];
-    tip.setAttribute('cx', s.x); tip.setAttribute('cy', s.y);
-    tip.style.opacity = (i >= N || i === 0) ? 0 : 1;
-  }
-
   /* ---- Felhívás kép lassú közelítése ---- */
   var ctaImg = document.getElementById('ctaImg'), ctaSec = document.getElementById('felhivas');
   function ctaScale(){
@@ -1102,15 +1018,10 @@
   }
 
   var ticking = false;
-  function onScroll(){ if (ticking) return; ticking = true; requestAnimationFrame(function(){ onHeader(); drawThread(); ctaScale(); ticking = false; }); }
+  function onScroll(){ if (ticking) return; ticking = true; requestAnimationFrame(function(){ onHeader(); ctaScale(); ticking = false; }); }
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  var rt; function rebuild(){ clearTimeout(rt); rt = setTimeout(buildThread, 120); }
-  window.addEventListener('resize', rebuild);
-  window.addEventListener('load', function(){ buildThread(); setTimeout(buildThread, 1800); });
-  if ('ResizeObserver' in window) new ResizeObserver(rebuild).observe(document.querySelector('main'));
   onHeader(); ctaScale();
-  setTimeout(buildThread, 50);
 })();
 </script>
 </body>
